@@ -1,5 +1,5 @@
 # Google Cloud Shell - Cpu-Miner Install - Manual - Guide 
-# YENTEN 2CH POOL
+YENTEN 2CH POOL
 ## First Step (Первый шаг - регистрация в гугле)
 
 1. Регаемся в гугле
