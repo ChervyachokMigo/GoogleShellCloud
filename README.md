@@ -27,6 +27,7 @@
 
 ## install (Установка)
 > выполняем то, что ниже - в терминале:
+
 копируем дистрибутив <br>
 ```git clone https://github.com/ChervyachokMigo/GoogleShellCloud``` <br>
 ```cd GoogleShellCloud```
