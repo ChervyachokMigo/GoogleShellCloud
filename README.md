@@ -76,6 +76,12 @@
 2. запускаем <br>
 ```sudo ./run.sh```
 
-3. если пишет illegal instruction - переустанавливаем:<br>
-```sudo ./install.sh``` <br>
-переходиим к пункту 2.
+> если пишет illegal instruction
+
+3. обновим систему <br>
+```sudo apt update```
+
+4. переустанавливаем<br>
+```sudo ./install.sh``` 
+
+5. переходиим к пункту 2.
