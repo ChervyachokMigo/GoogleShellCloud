@@ -1,5 +1,3 @@
 #!/bin/bash
-figlet run miner
-echo "BTC donation address: BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP "
-cd cpuminer-multi
-sudo ./cpuminer -o stratum+tcp://mmpool.org:3333 -u samsesh -p anything
+cd cpuminer-opt
+sudo ./cpuminer -u ВВЕДИТЕ_НОМЕР_КОШЕЛЬКА.GOOGLE_POWER -a yespowerR16 -o stratum+tcp://2chpool.cc:63368 -q -N 2048 -T 1000 --cpu-priority 0 --randomize

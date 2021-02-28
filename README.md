@@ -1,17 +1,63 @@
-# GoogleConsole_CPUminer
-### install 
-- ```git colne https://github.com/samsesh/GoogleConsole_CPUminer.git```
-- ```cd GoogleConsole_CPUminer```
-- ```chmod +x install.sh```
-- ```sudo install.sh```
-### run
-- edit run.sh for config 
-- ```nano run.sh```
-- ```chomd +x run.sh ```
-- then run ```sudo run.sh``` for mining
-### get free debain server on google 
-- just go to https://shell.cloud.google.com and login
-- for more see my vidoe on YT https://www.youtube.com/watch?v=hX8s7OuSntk&t=137s
-### donate me 
-- If this project very help you to mining BTC  and u want support me , you can give me a cup of coffee :)
-- [![Donation](https://img.shields.io/badge/BITCOIN-donate-yellow.svg)](bitcoin:BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP) : ```BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP```
+# GoogleShellCloud
+cloud shell - cpu miner install - manual
+
+1 регаемся в гугле
+
+2 идем на https://shell.cloud.google.com/
+
+небольшой минигайд по терминалу:
+## Terminal hint (подсказка)
+cd 	перейти в папку
+cd .. 	(две точки) перейти назад
+cd Goo нажать таб 	автоматически дополнит строку если папка существует
+ls 	посмотреть папки в текущей директории
+cd ~	(тильда) перейдет в корень пользовательской директории
+git clone	копирует содержимое github
+nano	текстовый редактор
+chmod	меняет права доступа к файлу
+sudo	запускает следующую команду с повышенными привилегиями
+./имяфайла	(точка, слеш, имя файла) команда для запуска файла
+ ps -aux | grep "cpu"	посмотреть запущен ли процесс
+ps	выводит список процессов
+grep	ищет в выводе совпадения строк по шаблону
+сочетание ctrl+C завершает процесс в терминале
+стрелочки на клавиатуре - вверх и вниз 	выбирают прошлые введенные команды
+
+## install (Установка)
+3 выполняем что ниже в терминале:
+копируем дистрибутив
+```git clone https://github.com/ChervyachokMigo/GoogleShellCloud```
+```cd GoogleShellCloud```
+
+делаем файл исполняемым и перезаписываемым
+```sudo chmod 777 install.sh```
+
+запускаем установку
+```sudo ./install.sh```
+
+когда спросит про mysql оставляем все по дефолту
+жмем цифру ```4```	(отвечаем ok)
+
+в конце выходим:
+```CTRL+C```
+
+## run (Запуск)
+делаем файл исполняемым и перезаписываемым
+```sudo chmod 777 run.sh```
+
+открываем run.sh
+```sudo nano run.sh```
+
+заменяем что там введите_свой_кошелек на свой YENTEN кошелек
+
+сохраняем:
+```ctrl+X```
+```Y```
+```enter```
+
+запускаем 
+```sudo ./run.sh```
+
+
+## Also
+терминалы можно по-закрывать, а вкладку оставить открытой, после закрытия майнит еще минут 30
