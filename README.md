@@ -35,6 +35,8 @@
 
 копируем дистрибутив <br>
 ```git clone https://github.com/ChervyachokMigo/GoogleShellCloud``` <br>
+
+переходим в папку которая скачалась <br>
 ```cd GoogleShellCloud```
 
 делаем файл установки исполняемым и перезаписываемым <br>
