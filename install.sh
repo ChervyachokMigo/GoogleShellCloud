@@ -7,4 +7,3 @@ git clone https://github.com/JayDDee/cpuminer-opt
 cd cpuminer-opt
 sudo ./build.sh
 cd ..
-clear
