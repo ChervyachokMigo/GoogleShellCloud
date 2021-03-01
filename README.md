@@ -78,7 +78,7 @@
 ```cd GoogleShellCloud```
 
 2. запускаем <br>
-```sudo ./run.sh```
+```./run.sh```
 
 > если пишет illegal instruction или другая ошибка, то пишем
 
