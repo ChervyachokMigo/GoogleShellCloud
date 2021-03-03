@@ -95,7 +95,7 @@
 
 3.3. переходиим к пункту ```2.```
 
-> если пишет include <curl/curl.h> COmpilation terminated
+> если пишет include^ <curl/curl.h> Compilation terminated
 
 4.1. установим эту библиотеку в ручную <br>
 ```sudo apt install curl```
